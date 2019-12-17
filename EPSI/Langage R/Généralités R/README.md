@@ -155,6 +155,60 @@ Utilisons un dataset simple : le dataset iris, qui contient les largeurs et long
 
 ```
 # La fonction plot() s'utilise d ela manière suivante
-plot(iris$Petal.Length, iris$Petal.Width, main="Edgar Anderson's Iris Data")
+plot(iris$Petal.Length, iris$Petal.Width)
 ```
+
+![](https://drive.google.com/uc?export=view&id=1ECj8a3VoNYOGd9jlMqiFlnSpaUqTm8eY)
+
+Différentes options sont utilisables pour la mise en forme
+```
+# main pour le titre
+plot(iris$Petal.Length, iris$Petal.Width, main="Edgar Anderson's Iris Data")
+
+# col pour changer la couleur 
+plot(iris$Petal.Length, iris$Petal.Width,col="red")
+
+# type pour changer le type de point ('l' pour ligne, 'p' pour point, 'b' point-ligne, ...)
+plot(iris$Petal.Length, iris$Petal.Width,type="b")
+
+# xlab, ylab pour renommer les axes
+plot(iris$Petal.Length, iris$Petal.Width,xlab = "titre de l'axe x",ylab = "axe y") 
+
+# xlim et ylim pour paramétrer les limites
+plot(iris$Petal.Length, iris$Petal.Width,xlim=c(0,10),ylim=c(2,5))
+```
+
+### Les diagrammes en barre
+
+La fonction barplot() est la plus commune pour les diagrammes en barre, il est possible de les customiser pour obtenir les visuels plus poussés comme des barplot empilé, des barres horizontales ou verticales, ...
+
+```
+x = c(1,2,5,2) 
+barplot(x)
+
+barplot(table(iris$Species))
+```
+
+![](https://drive.google.com/uc?export=view&id=1q6iPmHgLTMRariPRxhatoWjjc3speJ0B)
+
+
+### Les histogrammes
+
+Tracer un histogramme avec R, c'est à dire visualiser la répartition d'un effectif se fait avec la commande hist().
+
+```
+# soit x une liste de données simulées ici 
+x <- rnorm(10000,20,3) # A remplacer 
+# Tracer l'histogramme 
+hist(x) 
+``` 
+
+![](https://drive.google.com/uc?export=view&id=1vcpRzaA9D5OgnpaISfum08K4RWnMp-z3)
+
+
+### Pour aller plus loin
+
+Les packages de visualisations graphiques sont nombreux, les plus connus restent plotly et ggplot2 qui permettent une totale maitrise des graphiques mais aussi un rendu visuel plus sympathique voir dynamique. 
+
+
 
