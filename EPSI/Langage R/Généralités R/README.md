@@ -146,4 +146,16 @@ Pour exporter vos données et les enregistrer sur votre ordinateur par exemple :
 
 ### Les nuages de point
 
-Utilisons un dataset simple : 
+Pour tracer un graphique, un nuage de points où y = f(x) 
+```
+plot(x,y) 
+```
+
+Utilisons un dataset simple : le dataset iris, qui contient les largeurs et longueurs des sépales et pétales de plusieurs fleurs.
+
+```
+# La fonction plot() s'utilise d ela manière suivante
+plot(iris$Petal.Length, iris$Petal.Width, main="Edgar Anderson's Iris Data")
+```
+
+![](https://drive.google.com/uc?export=view&id=12NXcA-8S_D6n3jo7va_6kjrSPKtdqPwE)
