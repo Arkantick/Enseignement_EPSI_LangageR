@@ -158,4 +158,3 @@ Utilisons un dataset simple : le dataset iris, qui contient les largeurs et long
 plot(iris$Petal.Length, iris$Petal.Width, main="Edgar Anderson's Iris Data")
 ```
 
-![](https://drive.google.com/uc?export=view&id=12NXcA-8S_D6n3jo7va_6kjrSPKtdqPwE)
