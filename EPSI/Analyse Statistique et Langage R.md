@@ -1,4 +1,4 @@
-# Analyse Statistique et Langage R 
+# Modules DATA
 
 Cours et énoncé des modules :
   - Analyse Statistique et Langage R 
