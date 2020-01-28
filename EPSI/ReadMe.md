@@ -1,5 +1,4 @@
 # Modules DATA
 
-Cours et énoncé des modules :
+Cours et énoncé du module :
   - Analyse Statistique et Langage R 
-  - Big Data et Traitement par l'IA
